@@ -1,4 +1,10 @@
 h1{
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+p{
     text-align: justify;
-    color: calc();
+    color: teal;
+    background-color: blanchedalmond;
 }
