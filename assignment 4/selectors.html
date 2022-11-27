@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div p {
+        color: aqua;
+      }
+      div > p {
+        color: aquamarine;
+      }
+      div + p {
+        color: blue;
+      }
+      div ~ p {
+        color: brown;
+      }
+      p.classconcept {
+        color: burlywood;
+      }
+      #ide {
+        color: chartreuse;
+      }
+      * {
+        text-align: center;
+      }
+      h1 {
+        color: crimson;
+      }
+      h2 {
+        color: cornsilk;
+      }
+      p {
+        color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Combinator Selector</h1>
+    <div>
+      <p>descendant Selector</p>
+      <p>ds1</p>
+      <section>child Selector</section>
+    </div>
+    <p>ascendent Selector</p>
+    <p>general Selector</p>
+    <div id="ide">
+      <p>using id selector</p>
+    </div>
+    <div class="classconcept">
+      <p>using class selector</p>
+    </div>
+    <h1>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio, fuga.
+    </h1>
+    <h2>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit maxime
+      ducimus, totam consequatur cumque non?
+    </h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+  </body>
+</html>

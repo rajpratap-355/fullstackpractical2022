@@ -1,0 +1,59 @@
+body{
+    background-image: url(./images/th\ \(11\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.menu{
+    background: black;
+    text-align: center;
+
+   
+}
+.menu ul{
+    list-style: none;
+    display: inline-flex;
+    color: aliceblue;
+    
+}
+.menu ul li{
+    width: 250px;
+    margin: 15px;
+    padding: 15px
+}
+*{
+   margin: 0;
+   
+   box-sizing: border-box;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+    
+}
+.fa
+{
+    margin-right: 6px;
+
+}
+.common :hover{
+    background-color: goldenrod;
+}
+.dropdown1{
+    display: none;
+    width: 120px;
+}
+.menu ul li :hover .dropdown1{
+display: block;
+background-color: black;
+position: absolute;
+margin-top: 15px;
+margin-left: -50px;
+
+}
+.menu div{
+    text-align: center;
+}
+
